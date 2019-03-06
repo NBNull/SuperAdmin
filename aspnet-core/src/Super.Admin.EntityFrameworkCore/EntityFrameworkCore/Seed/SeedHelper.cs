@@ -15,6 +15,7 @@ namespace Super.Admin.EntityFrameworkCore.Seed
         public static void SeedHostDb(IIocResolver iocResolver)
         {
             WithDbContext<AdminDbContext>(iocResolver, SeedHostDb);
+
         }
 
         public static void SeedHostDb(AdminDbContext context)
